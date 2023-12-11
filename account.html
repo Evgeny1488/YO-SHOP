@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YO PROFILE</title>
+    <link rel="icon" type="image/x-icon" href="logoo.ico">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+    <script src="js.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;500&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <div class="navbar">
+        <header>
+            <a href="index.html">
+                <div id="logo">
+                    <img src="icons_png/logoo.png" alt="logo_image" width="57px" height="54px">
+                </div>
+            </a>
+
+                <ul id="about" class = "pp_menu">
+                    <li><a href="#" title="NEW">NEW</a>
+                        <ul>
+                            <li><a href="new.html">NEW TRENDS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" title="WOMEN">WOMEN</a>
+                        <ul>
+                            <li><a href="women.html">WOMEN CLOTHING</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" title="MEN">MEN</a>
+                        <ul>
+                            <li><a href="men.html">MEN CLOTHING</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" title="KIDS">KIDS</a>
+                        <ul>
+                            <li><a href="kids.html">KIDS CLOTHING</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="help.html" title="HELP">HELP</a></li>
+                </ul>                   
+                
+                <div class="right">
+                    <div class="search">
+                        <div class="s_im"><img src="icons/find.svg" alt="logo_image" width="20px" height="20px"></div>
+                        <div class="s_txt">Search</div>  
+                    </div>  
+                    <div class="liked">
+                        <img class="liked" src="icons/srdce.svg" alt="Liked Image">
+                    </div>
+                    <div class="tobuy">
+                        <img src="icons/bag.svg" alt="logo_image" width="30px" height="30px">
+                    </div>
+                    <div class="account">
+                        <img class="account" src="icons_png/acc.png" alt="Account">
+                    </div>
+                    <div class="burger">
+                        <img src="icons_png/menu (1).png" alt="logo_image" width="30px" height="30px">
+                    </div>
+                </div>     
+                
+                <nav class="side-bar">
+                    <li  class = 'b1'><a href="#" title="NEW">NEW</a>
+                        <ul class = "nt_show">
+                            <li><a href="new.html">NEW TRENDS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class = 'b2' title="WOMEN">WOMEN</a>
+                        <ul class = "w_show">
+                            <li><a href="women.html">WOMEN CLOTHING</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class = 'b3' title="MEN">MEN</a>
+                        <ul class = "m_show">
+                            <li><a href="men.html">MEN CLOTHING</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class = 'b4' title="KIDS">KIDS</a>
+                        <ul class = "k_show">
+                            <li><a href="kids.html">KIDS CLOTHING</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="help.html" class = 'b5' title="HELP">HELP</a></li>
+                </nav>
+        </header>
+    </div>
+    <div class="logo_big">
+        <img src="icons_png/logoo.png" alt="logo_image" width="128px" height="128px">
+    </div>
+    <div class="gh">
+        <div class="gh1">
+            create
+        </div>
+        <div class="gh2">
+            account
+        </div>
+    </div>
+    
+    <div class="line1">
+            
+    </div>
+    <div class="account_progresion">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">I am mechanic</option>
+            </select>
+        
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        
+            <div class="checkbox-container">
+                <input type="checkbox" id="agreement" name="agreement" required>
+                <label for="agreement" id = "agr1">You agree to our TERMS AND CONDITIONS</label>
+            </div>
+        
+            <button class="button open-popup" type="submit">CREATE ACCOUNT</button>
+        </form>
+    </div>
+
+    <div class="popup-bg">
+        <div class="popup">
+            <div class="regs">registration successful</div>
+            <div class="close-popup">GO SHOP</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="left">
+            <div class="c">
+                ©2023 YEVHENII OSTROVSKYI 
+            </div>
+            <div class="tac">
+                Terms and conditions
+            </div>     
+        </div>
+        <div class="right1">
+            <img src="icons/utube.svg" alt="utube" width="34px" height="34x">
+            <img src="icons/tel.svg" alt="utube" width="34px" height="34x">
+            <img src="icons/face.svg" alt="utube" width="34px" height="34x">
+            <img src="icons_png/inst.png" alt="utube" width="34px" height="34x">
+        </div>
+    </div>
+<script src="js.js"></script>   
+</body>
+</html>
